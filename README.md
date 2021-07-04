@@ -16,7 +16,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`0`** - move forward.
 - **`1`** - move backward.
 - **`2`** - turn left.
-- **`3`** - turn right. 
+- **`3`** - turn right.
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
@@ -36,7 +36,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Run the `Navigation_myDQN.py` to get started with training your own agent or load the saved model file `saved_DQN_agent.pth` to test.
+
+ All you need to do is just set two variables `state` and `mode`. 
+ 1. If you want to see agent's action slowly to see the result of 100 consecutive rewards, then set `mode` = 'slow' and `state` = 'Test' else if fastly, `mode` = 'fast' and `state` = 'Test'. 
+ 2. If you want to train yourself then just set `state` = 'Train'
 
 ### (Optional) Challenge: Learning from Pixels
 
@@ -53,3 +57,6 @@ You need only select the environment that matches your operating system:
 Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
+### Report
+You can see the report about learning algorithm, plot of rewards and ideas for future work in `Report.ipynb` file. It compares between `Vanila DQN agent` and `Double DQN with Prioritized Experience Replay`.

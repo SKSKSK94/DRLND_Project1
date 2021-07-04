@@ -2,4 +2,5 @@ __pycache__/
 .ipynb_checkpoints
 Banana_Linux/
 *.ipynb
+!Report.ipynb
 unity-environment.log
