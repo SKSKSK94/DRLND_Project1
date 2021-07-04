@@ -27,7 +27,7 @@ env = UnityEnvironment(file_name="./Banana_Linux/Banana.x86")
 if you want to see agent's action slowly to see the result of 100 consecutive rewards,
 then set mode = 'slow'
 else if fastly, mode = 'fast'
-'''
+''' 
 # state = 'Train'
 state = 'Test'
 
