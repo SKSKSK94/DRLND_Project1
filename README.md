@@ -34,6 +34,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
+### Dependencies
+
+1. Please follow the instruction to [dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies) from the original course Github repository. 
+2. Also to run the 'Banana' unity environment, please follow the Installation md file of [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Installation.md)
+
 ### Instructions
 
 Run the `Navigation_myDQN.py` to get started with training your own agent or load the saved model file `saved_DQN_agent.pth` to test.
