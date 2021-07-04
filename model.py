@@ -13,7 +13,7 @@ class QNetwork(nn.Module):
             action_size (int): Dimension of each action
             seed (int): Random seed
         """
-        super(QNetwork, self).__init__()
+        super(QNetwork, self).__init__() 
         self.seed = torch.manual_seed(seed)
         "*** YOUR CODE HERE ***"
         self.fc1 = nn.Linear(state_size, hidden_dim[0])
